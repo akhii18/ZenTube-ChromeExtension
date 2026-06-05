@@ -1,0 +1,156 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171b22;
+  --panel-muted: #1f2530;
+  --border: #2c3440;
+  --text-main: #e8edf3;
+  --text-dim: #9aa6b8;
+  --btn: #3b82f6;
+  --btn-hover: #4b8ef7;
+  --ok: #2cc58d;
+  --ok-bg: rgba(44, 197, 141, 0.14);
+  --danger: #f07373;
+  --danger-bg: rgba(240, 115, 115, 0.14);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #0b0f14;
+}
+
+body {
+  width: 320px;
+  padding: 0;
+  color: var(--text-main);
+  font-family: "Trebuchet MS", "Avenir Next", "Gill Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border-radius: 0;
+  padding: 18px 14px 14px;
+  background: var(--bg);
+  border: 0;
+  box-shadow: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 46px;
+  line-height: 0.95;
+  letter-spacing: 0.2px;
+  color: var(--text-main);
+}
+
+.subtitle {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.card {
+  border-radius: 14px;
+  padding: 14px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.statusDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ok);
+  box-shadow: 0 0 0 4px rgba(44, 197, 141, 0.2);
+}
+
+.statusRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.statusTitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #dce4ef;
+}
+
+.statusPill {
+  min-width: 64px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  border-radius: 999px;
+  padding: 7px 12px;
+  border: 1px solid transparent;
+}
+
+.statusPill.is-on {
+  color: var(--ok);
+  background: var(--ok-bg);
+  border-color: rgba(44, 197, 141, 0.35);
+}
+
+.statusPill.is-off {
+  color: var(--danger);
+  background: var(--danger-bg);
+  border-color: rgba(240, 115, 115, 0.35);
+}
+
+.card[data-state="off"] .statusDot {
+  background: var(--danger);
+  box-shadow: 0 0 0 4px rgba(240, 115, 115, 0.2);
+}
+
+button {
+  width: 100%;
+  border: 1px solid #4e89ee;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  color: #f3f7ff;
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--btn);
+  transition: background 0.12s ease;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+button:active {
+  background: #2f75e7;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #7f8a9a;
+  margin-top: 2px;
+}

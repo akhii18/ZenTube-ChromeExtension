@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>ZenTube</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>ZenTube</h1>
+
+      <p class="subtitle">YouTube without distractions</p>
+
+      <div class="card" id="statusCard" data-state="on">
+        <div class="cardHead">
+          <div class="label">Current Status</div>
+          <div class="statusDot" id="statusDot" aria-hidden="true"></div>
+        </div>
+
+        <div class="statusRow">
+          <div class="statusTitle">Focus Mode</div>
+          <div class="statusPill is-on" id="statusText">ON</div>
+        </div>
+      </div>
+
+      <button id="toggleBtn">Turn Focus Mode Off</button>
+
+      <div class="footer">Crafted by Akhi</div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
