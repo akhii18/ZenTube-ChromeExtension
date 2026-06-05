@@ -11,8 +11,6 @@ ZenTube is a productivity-focused Chrome Extension that removes YouTube distract
 - Hide comments
 - Hide YouTube Shorts
 - Focus Mode toggle
-- Pomodoro Timer
-- Usage Tracker
 - Modern dark UI
 
 ## Tech Stack
