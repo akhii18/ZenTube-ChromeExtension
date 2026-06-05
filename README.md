@@ -1,3 +1,4 @@
+
 # ZenTube-ChromeExtension
 A distraction-free YouTube Chrome Extension with focus mode .
 
@@ -21,8 +22,16 @@ ZenTube is a productivity-focused Chrome Extension that removes YouTube distract
 - Chrome Extension APIs
 
 ## Screenshots
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/08c021c6-fa3c-4f93-9764-f1be8b910ebc" />
-<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/1200d754-bc9f-4414-9b8b-580cfbade67b" />
+
+
+With Zentube : 
+
+<img width="1919" height="1031" alt="12" src="https://github.com/user-attachments/assets/6afa195d-ddc5-4dd5-8fca-ffba1a0a09ab" />
+
+Without Zentude :
+
+<img width="1919" height="1034" alt="123" src="https://github.com/user-attachments/assets/578dcda7-ce57-4d7e-94bf-162ba07ec7de" />
+
 
 
 
